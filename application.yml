@@ -1,3 +1,9 @@
+spring:
+  zipkin:
+    sampler:
+      probabilistic:
+        rate: 1.0
+
 eureka:
   client:
     serviceUrl:
