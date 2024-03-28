@@ -20,9 +20,7 @@ spring:
     sampler:
       probabilistic:
         rate: 1.0
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-	  
