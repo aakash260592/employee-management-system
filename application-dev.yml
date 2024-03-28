@@ -1,6 +1,8 @@
 spring:
-  application:
-    name: DEV-USER-SERVICE
+  zipkin:
+    sampler:
+      probabilistic:
+        rate: 1.0
 
 eureka:
   client:
