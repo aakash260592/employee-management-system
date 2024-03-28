@@ -1,10 +1,10 @@
 server:
   port: 9092
-  
+
 spring:
   application:
     name:  TASK-SERVICE
-   datasource:
+  datasource:
     username: root
     password: Root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -12,7 +12,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+      show-sql: true
   zipkin:
     sampler:
       probabilistic:
