@@ -1,6 +1,5 @@
 server:
   port: 8761
-
 spring:
   application:
     name: EUREKA-REGISTRY-SERVICE
@@ -8,7 +7,6 @@ spring:
     sampler:
       probabilistic:
         rate: 1.0
-		
 eureka  :
   client  :
     register-with-eureka: false
