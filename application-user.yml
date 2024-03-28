@@ -3,7 +3,7 @@ server:
   
 spring:
   application:
-    name:  USER-MODIFICATION-SERVICE
+    name:  USER-SERVICE
   zipkin:
     sampler:
       probabilistic:
