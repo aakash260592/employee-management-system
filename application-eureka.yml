@@ -6,9 +6,9 @@ spring:
   zipkin:
     sampler:
       probabilistic:
-        rate: 1.0
-eureka  :
-  client  :
+        rate: 1
+eureka:
+  client:
     register-with-eureka: false
     fetch-registry: false
   server:
